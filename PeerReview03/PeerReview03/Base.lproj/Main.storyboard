@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Euro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KrO-Ng-82k">
+                                <rect key="frame" x="20" y="318" width="159" height="41"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G0D-Xu-KnS">
+                                <rect key="frame" x="203" y="318" width="97" height="41"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Yen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIp-C6-Nlt">
+                                <rect key="frame" x="20" y="367" width="159" height="41"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TiY-mi-xy2">
+                                <rect key="frame" x="203" y="421" width="97" height="41"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="GBP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ace-Ae-zVN">
+                                <rect key="frame" x="20" y="421" width="159" height="41"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3YC-sA-FRS">
+                                <rect key="frame" x="203" y="367" width="97" height="41"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter an amount in U.S. Dollars" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AbI-vJ-LMy">
+                                <rect key="frame" x="20" y="219" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Currency Conversion App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHj-HE-sNj">
+                                <rect key="frame" x="20" y="64" width="280" height="51"/>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="22"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MU-NM-Jno">
+                                <rect key="frame" x="87" y="257" width="146" height="53"/>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="30"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
+                                <state key="normal" title="Convert">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IYb-xN-NQq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40429332403340212" green="0.92110558712121215" blue="0.68044026898211407" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="qHj-HE-sNj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8FW-lY-ubL"/>
+                            <constraint firstItem="ace-Ae-zVN" firstAttribute="centerY" secondItem="TiY-mi-xy2" secondAttribute="centerY" id="AmM-pr-CXY"/>
+                            <constraint firstItem="3YC-sA-FRS" firstAttribute="leading" secondItem="KIp-C6-Nlt" secondAttribute="trailing" constant="24" id="BGV-al-Clt"/>
+                            <constraint firstItem="KrO-Ng-82k" firstAttribute="centerY" secondItem="G0D-Xu-KnS" secondAttribute="centerY" id="EAh-ur-wRh"/>
+                            <constraint firstItem="KIp-C6-Nlt" firstAttribute="top" secondItem="9MU-NM-Jno" secondAttribute="bottom" constant="57" id="JbJ-6i-GoJ"/>
+                            <constraint firstItem="TiY-mi-xy2" firstAttribute="leading" secondItem="ace-Ae-zVN" secondAttribute="trailing" constant="24" id="KZp-jr-eeZ"/>
+                            <constraint firstItem="9MU-NM-Jno" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MhD-fI-0h1"/>
+                            <constraint firstItem="KIp-C6-Nlt" firstAttribute="centerY" secondItem="3YC-sA-FRS" secondAttribute="centerY" id="UK4-G3-OYg"/>
+                            <constraint firstItem="9MU-NM-Jno" firstAttribute="top" secondItem="AbI-vJ-LMy" secondAttribute="bottom" constant="8" id="ZyN-QJ-ndu"/>
+                            <constraint firstItem="AbI-vJ-LMy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cjx-sO-nAL"/>
+                            <constraint firstItem="G0D-Xu-KnS" firstAttribute="leading" secondItem="KrO-Ng-82k" secondAttribute="trailing" constant="24" id="iez-re-Igw"/>
+                            <constraint firstItem="KrO-Ng-82k" firstAttribute="top" secondItem="9MU-NM-Jno" secondAttribute="bottom" constant="8" id="jJg-eQ-T5k"/>
+                            <constraint firstItem="9MU-NM-Jno" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m7s-D8-MgO"/>
+                            <constraint firstItem="AbI-vJ-LMy" firstAttribute="top" secondItem="qHj-HE-sNj" secondAttribute="bottom" constant="104" id="w8D-ZO-TnE"/>
+                            <constraint firstItem="ace-Ae-zVN" firstAttribute="top" secondItem="9MU-NM-Jno" secondAttribute="bottom" constant="111" id="wDB-1M-jZx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="convertButton" destination="9MU-NM-Jno" id="wQi-VI-cFg"/>
+                        <outlet property="currencyA" destination="G0D-Xu-KnS" id="c8a-uw-Hmy"/>
+                        <outlet property="currencyB" destination="3YC-sA-FRS" id="brI-Bb-e9q"/>
+                        <outlet property="currencyC" destination="TiY-mi-xy2" id="PS1-VO-Iqr"/>
+                        <outlet property="inputField" destination="AbI-vJ-LMy" id="qlS-Cm-xcx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="194" y="27"/>
+        </scene>
+    </scenes>
+</document>
